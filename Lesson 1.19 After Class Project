@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>After Class Project Lesson 19</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Simple Calculator</h1>
+        <h3 style="text-decoration: underline;">Addition</h3>
+        <p>The addeneds are</p>
+        <h6>2</h6>
+        <h6>3</h6>
+        <p id="c1"></p>
+        <script>
+            var a1, b1, c1;
+            a1 = 2;
+            b1 = 3;
+            c1 = a1 + b1;
+            document.getElementById("c1").innerHTML = "The sum of 2 and 3 is " + c1;
+        </script>
+        <hr>
+        <h3>Subtraction</h3>
+        <p>The minuend is <b>5</b></p>
+        <p>The subtrahend is <b>2</b></p>
+        <p id="c2"></p>
+        <script>
+            var a2, b2, c2;
+            a2 = 5;
+            b2 = 2;
+            c2 = a2 - b2;
+            document.getElementById("c2").innerHTML = "The difference is <b>" + c2 + "</b>";
+        </script>
+        <hr>
+        <h3>Multiplication</h3>
+        <p>The multiplicands is <b>4</b></p>
+        <p>The multiplier is <b>6</b></p>
+        <p id="c3"></p>
+        <script>
+            var a3, b3, c3;
+            a3 = 4;
+            b3 = 6;
+            c3 = a3 * b3;
+            document.getElementById("c3").innerHTML = "The product is <b>" + c3 + "</b>";
+        </script>
+        <hr>
+        <h3>Division</h3>
+        <p>The dividend is <b>8</b></p>
+        <p>The divisor is <b>2</b></p>
+        <p id="c4"></p>
+        <script>
+            var a4, b4, c4;
+            a4 = 8;
+            b4 = 2;
+            c4 = a4 / b4;
+            document.getElementById("c4").innerHTML = "The quotient is <b>" + c4 + "</b>";
+        </script>
+    </body>
+</html>
