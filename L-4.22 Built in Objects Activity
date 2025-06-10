@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Built in Methods Activity</title>
+</head>
+<body>
+    <h1>JavaScript Math Object Methods</h1>
+    <script type="text/javascript">
+        var value = Math.acos(-1);
+        document.write("Demo1 test value: " + value + "<br>");
+
+        var value2 = Math.asin(1);
+        document.write("Demo2 test value: " + value2 + "<br>");
+
+        var value3 = Math.atan(.5);
+        document.write("Demo3 test value: " + value3 + "<br>");
+    </script>
+</body>
+</html>
