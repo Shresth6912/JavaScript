@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Shresth Jha">
+        <title>After Class Project L-21</title>
+    </head>
+    <body>
+        <h1>Numbers from 1 to 10</h1>
+        <script>
+            var num = "";
+            var i="1";
+            for (i = 1; i <= 10; i++) {
+                num += i + "<br> ";
+            }
+            document.write(num);
+
+
+            switch(new Date().getDate()) {
+                case 1:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 1");
+                    break;
+                case 2:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 2");
+                    break;
+                case 3:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 3");
+                    break;
+                case 4:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 4");
+                    break;
+                case 5:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 5");
+                    break;
+                case 6:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 6");
+                    break;
+                case 7:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 7");
+                    break;
+                case 8:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 8");
+                    break;
+                case 9:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 9");
+                    break;
+                case 10:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 10");
+                    break;
+                case 11:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 11");
+                    break;
+                case 12:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 12");
+                    break;
+                case 13:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 13");
+                    break;
+                case 14:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 14");
+                    break;
+                case 15:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 15");
+                    break;
+                case 16:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 16");
+                    break;
+                case 17:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 17");
+                    break;
+                case 18:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 18");
+                    break;
+                case 19:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 19");
+                    break;
+                case 20:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 20");
+                    break;
+                case 21:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 21");
+                    break;
+                case 22:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 22");
+                    break;
+                case 23:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 23");
+                    break;
+                case 24:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 24");
+                    break;
+                case 25:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 25");
+                    break;
+                case 26:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 26");
+                    break;
+                case 27:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 27");
+                    break;
+                case 28:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 28");
+                    break;
+                case 29:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 29");
+                    break;
+                case 30:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 30");
+                    break;
+                case 31:
+                    document.write("The Random Number is:" + Math.floor(Math.random() * 100) + "<br>");
+                    document.write("Today's Date is 31");
+                    break;
+            }
+        </script>       
+    </body>
+</html>
