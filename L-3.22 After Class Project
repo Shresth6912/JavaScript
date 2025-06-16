@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>After Class Project L-22</title>
+    </head>
+    <body>
+        <h1>Finding the max Number</h1>
+        <p id="result"></p>
+        <script>
+            function Sum(){
+                var i;
+                var sum = 0;
+                for(i=0; i<arguments.length; i++){
+                    sum += arguments[i];
+                }
+                return sum;
+            }
+            document.getElementById("result").innerHTML = "The Sum is "  + Sum(7,2);
+        </script>
+    </body>
+</html>
