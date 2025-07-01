@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>After Class Project L-25</title>
+    </head>
+    <body>
+        <h1>Divisibility Check by 17</h1>
+        <button onclick="divide()">Check divisibility by 17</button>
+        <script>
+            function divide(){
+                var num = Number(prompt("Enter a number: "));
+
+                var reminder = num%17;
+
+                if(reminder ==0){
+                    document.write(num + " is divisible by 17");
+                } else{
+                    document.write(num + " is not divisible by 17");
+                }
+            }
+        </script>
+    </body>
+</html>
